@@ -35,7 +35,7 @@ const Register:React.FunctionComponent = () => {
     <React.Fragment>
       <Components.Container>
         <section className={cls.register_page}>
-          <h2>Sign Up</h2>
+          <h2>Sign Up bla</h2>
 
           <form onSubmit={handleSubmit(handleRegister)}>
             <Components.Divider>
