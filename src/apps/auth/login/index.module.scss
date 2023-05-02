@@ -1,0 +1,40 @@
+
+.register_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+
+    h2 {
+      color: white;
+    }
+
+    form {
+      width: 30%;
+
+      input {
+        width: 100%;
+        padding: 17px 5px;
+        border-radius: 8px;
+        border: 0;
+        outline: 0;
+        background: none;
+        border: 2px solid #eee;
+        color: white;
+      }
+
+      button {
+        width: 100%;
+        padding: 17px 5px;
+        border-radius: 8px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        background-color: #0091d9;
+        color: white;
+        box-shadow: 0 0 5px #0091d9;
+        margin-left: 7px;
+      }
+    }
+}
